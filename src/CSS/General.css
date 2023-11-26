@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(78, 76, 80);
+    display:flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .formulario{
+    background-color: aqua;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border: double rgb(1, 1, 41);
+  }
+  
+  h1{
+    color: rgb(23, 27, 27);
+  }

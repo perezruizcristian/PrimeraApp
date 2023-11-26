@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(2, 124, 124);
+}
+
+.grid-layaut{
+  display: grid;
+  grid-template-areas: 'cabecera cabecera cabecera'
+                            'menu menu menu'
+                        'contenido lateral lateral '
+                           'footer footer footer';
+  grid-template-columns: 70% 10% auto;
+  grid-template-rows: 100px 150px 400px 70px;
+}
+.caja{
+  background-color: chocolate;
+ 
+  border: 1px solid rgb(16, 3, 85);
+}
+  
+.c1{
+  grid-area: cabecera ;
+  background-color: green;
+}
+.c2{
+  grid-area: menu ;
+  
+  background-color: rgb(9, 20, 122);
+}
+.c3{
+  grid-area: contenido;
+  
+  background-color: rgb(83, 83, 83);
+}
+.c4{
+  grid-area: lateral ;
+  
+  background-color: rgb(226, 14, 14);
+   
+}
+.c5{
+  grid-area: footer ;
+  
+  background-color: rgb(94, 201, 33);
+}

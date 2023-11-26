@@ -1,0 +1,25 @@
+.body-stock{
+    background: linear-gradient(to right,  rgb(251, 251, 253), rgb(41, 41, 41));
+    width: 1495px;
+    height: 685px;
+    display: block;
+}
+.cont-tit{
+    text-align: center;
+}
+.Contenedor{
+    background: linear-gradient(to bottom, rgb(5, 231, 99), rgb(62, 193, 226));
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+.tabla-stock{
+    text-align: center;
+    height: 100%;
+}
+.btn-volver{
+    width: 400px;
+}
